@@ -14,6 +14,6 @@ public class AnimalValidation {
     }
 
     public static boolean isAnimalCredentialsValid(Animal animal){
-        return !(animal.getId()<0||animal.getName()==null||animal.getName().isEmpty());
+        return !(animal.getId()<=0||animal.getName()==null||animal.getName().isEmpty());
     }
 }
